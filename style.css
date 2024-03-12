@@ -1,7 +1,14 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
 .ludo-container {
     width: 450px;
     margin: 20px auto;
@@ -103,6 +110,8 @@
 .btn-dice {
     background-color: #009d60;
     color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
 }
 
 .row {
@@ -114,4 +123,10 @@
 .dice-value {
     font-size: 24px;
     font-weight: bold;
+}
+footer{
+    bottom: 0;
+    font-size: .8rem;
+    font-weight: 100;
+    text-align: center;
 }
